@@ -15,7 +15,7 @@ if(isset($_POST['name']) && isset($_POST['description'])) {
     }
 
     
-
+    
 
     $rqAdd = $db->prepare('INSERT INTO creature (name, description, image, users_id)
                         VALUES (?, ?, ?, ? )');

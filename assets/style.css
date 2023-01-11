@@ -5,6 +5,23 @@
     list-style: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+body {
+    font-family: calibri;
+    background-color: #706C61;
+    background-image: url("../assets/img/texture.jpg");
+    background-size: 300px;
+    color: #aaa;
+    text-shadow: 3px 3px 1px #070606;
+  }
+
+  h1, h2, h3 {
+    font-family: "Old Fenris";
+    margin-bottom: 1em;
+    color: #c7bda6;
+    text-shadow: 3px 3px #070606;
+    font-weight: 200;
+  }
 /* BODY AND ALL */
 
 /* -----------------------------------NAV BAR----------------------------------- */
@@ -17,7 +34,7 @@ nav {
 nav ul {
     display: flex;
     gap: 25px;
-    padding: 10px 0 0 10px;
+    padding: 10px 0 0 25px;
 }
 
 nav a {
@@ -25,12 +42,45 @@ nav a {
 }
 /* NAV PARTOUT */
 
+li:nth-child(3) {
+    padding-right: 60%;
+}
+
+.nav-right-welcome {
+    color: white;
+}
+
 /* ------------------------------------TITRES------------------------------------ */
 /* ALL H1 */
 h1 {
     padding: 10px 0 15px 10px;
 }
 /* ALL H1 */
+
+
+/* -----------------------------!index.php!----------------------------- */
+.index_home {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.index_img_txt {
+    text-align: center;
+}
+
+.index_img_container {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.index_img {
+    object-fit: cover;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+
+}
 
 /* -----------------------------!creature_modif.php!----------------------------- */
 /* ALL FORM */
@@ -59,43 +109,87 @@ form button {
 }
 /* FORM MODIFICATION, NAME ET CREATURE */
 
-/* ---------------------------------!index.php!---------------------------------- */
+/* ---------------------------------!creatures.php!---------------------------------- */
 /* ARTICLE MODIFICATION */
 article {
-    border-bottom: 1px solid lightgray;
-    border-right: 1px solid lightgray;
-    padding: 5px 0;
-    margin: 10px 0;
+    border: 1px solid lightgray;
+    padding: 5px 0px 20px 0px;
     margin-left: 10px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 375px;
+    width: 420px;
+    padding: 10px;
+    position: relative;
 }
 
 article p {
     padding: 10px 0 10px 10px;
+    margin: 0px 20px;
 }
+
+.last_p_creature {
+    padding: 10px 0 60px 10px;
+    margin: 0px 20px;
+}
+
 
 article a {
     padding: 10px;
 }
 
+.container_button3 {
+    padding: 10px;
+    text-align: center;
+}
+
+.button3 {
+    padding: 5px 10px;;
+    text-align: center;
+}
+
 .button1 {
-    padding: 0px 10px;
+    padding: 5px 10px;
+    position:absolute;
+    bottom: 2%;
+    left: 9%;
+}
+
+.button2 {
+    padding: 5px 10px;
+    position:absolute;
+    bottom: 2%;
+    left: 500%;
 }
 
 .imgIndex {
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    height: 250px;
+    width: 420px;
+    object-position: center;
+    object-fit: cover;
+    height: 300px;
 }
 
 .creature_container {
     display: flex;
-    gap: 100px;
+    gap: 75px;
     flex-wrap: wrap;
 }
+
+.welcome_box {
+    text-align: center;
+}
+
 /* ARTICLE MODIFICATION */
 
+/* ---------------------------------!magie.php!---------------------------------- */
+.articles-container {
+    display: flex;
+    gap: 75px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.article-magie {
+    width: 420px;
+}
+/* ---------------------------------!index.php!---------------------------------- */
