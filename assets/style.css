@@ -1,0 +1,101 @@
+/* BODY AND ALL */
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* BODY AND ALL */
+
+/* -----------------------------------NAV BAR----------------------------------- */
+/* NAV PARTOUT */
+nav {
+    background-color: black;
+    padding: 0 0 10px 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    padding: 10px 0 0 10px;
+}
+
+nav a {
+    color:white ;
+}
+/* NAV PARTOUT */
+
+/* ------------------------------------TITRES------------------------------------ */
+/* ALL H1 */
+h1 {
+    padding: 10px 0 15px 10px;
+}
+/* ALL H1 */
+
+/* -----------------------------!creature_modif.php!----------------------------- */
+/* ALL FORM */
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 0 10px;
+}
+
+form button {
+    width: 150px;
+}
+/* ALL FORM */
+
+/* FORM MODIFICATION, NAME ET CREATURE */
+.modif_name {
+    width: 200px;
+    margin: 10px 0px;
+    border: 1px solid lightgray;
+}
+
+.modif_creature {
+    width: 250px;
+    margin: 10px 0px;
+    border: 1px solid lightgray;
+}
+/* FORM MODIFICATION, NAME ET CREATURE */
+
+/* ---------------------------------!index.php!---------------------------------- */
+/* ARTICLE MODIFICATION */
+article {
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    padding: 5px 0;
+    margin: 10px 0;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 375px;
+}
+
+article p {
+    padding: 10px 0 10px 10px;
+}
+
+article a {
+    padding: 10px;
+}
+
+.button1 {
+    padding: 0px 10px;
+}
+
+.imgIndex {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+
+.creature_container {
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+/* ARTICLE MODIFICATION */
+
