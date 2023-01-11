@@ -2,6 +2,7 @@
 session_start();
 include_once('environnement.php');
 
+
 if(isset($_POST['name']) && isset($_POST['description'])) {
     $name = htmlspecialchars($_POST['name']) ;
     $description = htmlspecialchars($_POST['description']) ;
