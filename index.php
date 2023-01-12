@@ -24,11 +24,12 @@ include_once('environnement.php');
     <div class="index_img_container">
         <div>
             <h2 class="index_img_txt">Les créatures</h2>
-            <img src="assets/img/creaturesbook.jpg" alt="" class="index_img">
+            <a href="creatures.php"><img src="assets/img/creaturesbook.jpg" alt="" class="index_img"></a>
+            
         </div>
         <div>
             <h2 class="index_img_txt">Les sortilèges</h2>
-            <img src="assets/img/spellbook.jpg" alt="" class="index_img">
+            <a href="magie.php"><img src="assets/img/spellbook.jpg" alt="" class="index_img"></a> 
         </div>
         
         
